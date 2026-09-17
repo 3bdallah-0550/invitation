@@ -159,7 +159,7 @@
       border-right: none;
       border-top: none;
     }
-    /* ====================================================== */
+
     .sec {
       text-align: center;
       background: var(--cream-2);
@@ -179,7 +179,7 @@
       color: var(--muted);
       font-size: 18px;
     }
-/* ============================================================================ */
+
   .details {
       text-align: center;
     }
@@ -224,7 +224,7 @@
       font-size: 17px;
       line-height: 1.7;
     }
-    /* ====================================================== */
+
      .forth {
       background: var(--cream-2);
     }
@@ -284,7 +284,7 @@
       color: var(--muted);
       font-size: 18px;
     }
-    /* ============================================================ */
+
      .fifth h2 {
       text-align: center;
       font-size: 38px;
@@ -307,7 +307,7 @@
       font-size: 26px;
       border: 1px solid var(--gold-light);
     }
-    /* ===================================================================== */
+
     .reserv {
       background: var(--burgundy);
       color: var(--cream);
@@ -369,7 +369,7 @@
       cursor: pointer;
       border-radius: 2px;
     }
-    /* ==========================================================/ */
+
     .sixth {
       text-align: center;
     }
@@ -400,7 +400,7 @@
       color: var(--muted);
       font-size: 16px;
     }
-    /* ======================================================================== */
+
 
     footer {
       text-align: center;
@@ -417,7 +417,7 @@
       margin-bottom: 10px;
       display: block;
     }
-    /* ====================================================================== */
+
         #toTop {
       position: fixed;
       bottom: 28px;
@@ -445,23 +445,7 @@
       pointer-events: auto;
       transform: translateY(0);
     }
-    /* ======================================================= */
-    /* عنصر القلب الطائر
-.floating-heart {
-  position: fixed;
-  bottom: -20px; 
-  font-size: 20px;
-  color: var(--burgundy); 
-  pointer-events: none; 
-  user-select: none;
-  z-index: 9999;
-  animation: floatUp 2.5s ease-out forwards;
-}
-
-@keyframes floatUp {
-  0% {
-    transform: translateY(0) scale(0.8) rotate(0deg);
-    opacity: 1;
+   
   }
   50% {
     transform: translateY(-50vh) scale(1.2) rotate(15deg);
