@@ -445,17 +445,8 @@
       pointer-events: auto;
       transform: translateY(0);
     }
-   
-  }
-  50% {
-    transform: translateY(-50vh) scale(1.2) rotate(15deg);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translateY(-105vh) scale(1.4) rotate(-20deg);
-    opacity: 0;
-  }
-} 
+
+
 .floating-heart {
   position: fixed;
   bottom: -20px; 
