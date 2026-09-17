@@ -1,0 +1,474 @@
+    :root {
+      --cream: #FAF6EF;
+      --cream-2: #F3EBDD;
+      --burgundy: #6B2737;
+      --gold: #B08D57;
+      --gold-light: #D9C6A3;
+      --charcoal: #2B2420;
+      --muted: #7A6F63;
+    }
+        * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--cream);
+      color: var(--charcoal);
+      font-family: 'Markazi Text', serif;
+      font-size: 19px;
+      line-height: 1.8;
+      overflow-x: hidden;
+    }
+
+    h1,
+    h2,
+    h3,
+    .display {
+      font-family: 'Aref Ruqaa', serif;
+      font-weight: 700;
+      color: var(--burgundy);
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    section {
+      padding: 110px 0;
+    }
+
+    .divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin: 28px auto;
+      width: 100%;
+      max-width: 260px;
+    }
+
+    .divider span {
+      height: 1px;
+      flex: 1;
+      background: var(--gold);
+    }
+
+    .divider i {
+      width: 7px;
+      height: 7px;
+      background: var(--gold);
+      transform: rotate(45deg);
+      display: block;
+    }
+    .first {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 24px;
+      background:
+      radial-gradient(ellipse at top, var(--cream-2) 0%, var(--cream) 60%);
+      position: relative;
+    }
+
+    .first .A {
+      font-family: 'Markazi Text', serif;
+      font-size: 20px;
+      color: var(--muted);
+      letter-spacing: .5px;
+      margin-bottom: 18px;
+    }
+    .first .names {
+      font-size: clamp(44px, 9vw, 84px);
+      line-height: 1.25;
+      margin: 0 0 8px 0;
+    }
+
+    .first .adds {
+      font-size: clamp(28px, 5vw, 40px);
+      color: var(--gold);
+      margin: 6px 0;
+    }
+
+    .first .date {
+      font-size: 22px;
+      color: var(--charcoal);
+      margin-top: 22px;
+    }
+
+    .first .details {
+      margin-top: 46px;
+      display: inline-block;
+      border: 1px solid var(--gold);
+      color: var(--burgundy);
+      padding: 14px 34px;
+      text-decoration: none;
+      font-size: 18px;
+      letter-spacing: .5px;
+      transition: background .25s ease, color .25s ease;
+      border-radius: 2px;
+    }
+
+    .first .details:hover {
+      background: var(--burgundy);
+      color: var(--cream);
+      border-color: var(--burgundy);
+    }
+
+    .first .corner {
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      border: 1px solid var(--gold-light);
+    }
+
+    .first .c1 {
+      top: 28px;
+      right: 28px;
+      border-left: none;
+      border-bottom: none;
+    }
+
+    .first .c2 {
+      top: 28px;
+      left: 28px;
+      border-right: none;
+      border-bottom: none;
+    }
+
+    .first .c3 {
+      bottom: 28px;
+      right: 28px;
+      border-left: none;
+      border-top: none;
+    }
+
+    .first .c4 {
+      bottom: 28px;
+      left: 28px;
+      border-right: none;
+      border-top: none;
+    }
+    /* ====================================================== */
+    .sec {
+      text-align: center;
+      background: var(--cream-2);
+    }
+
+    .sec p {
+      font-family: 'Aref Ruqaa', serif;
+      font-size: clamp(24px, 3.4vw, 32px);
+      color: var(--burgundy);
+      max-width: 620px;
+      margin: 0 auto;
+      line-height: 1.9;
+    }
+
+    .sec .B {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+/* ============================================================================ */
+  .details {
+      text-align: center;
+    }
+
+    .details h2 {
+      font-size: 38px;
+      margin-bottom: 8px;
+    }
+
+    .details .sub {
+      color: var(--muted);
+      font-size: 18px;
+      margin-bottom: 60px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 28px;
+    }
+
+    .card {
+      background: var(--cream-2);
+      border: 1px solid var(--gold-light);
+      padding: 38px 26px;
+      text-align: center;
+    }
+
+    .card .icon {
+      font-size: 30px;
+      color: var(--gold);
+      margin-bottom: 14px;
+    }
+
+    .card h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.7;
+    }
+    /* ====================================================== */
+     .forth {
+      background: var(--cream-2);
+    }
+
+    .forth h2 {
+      text-align: center;
+      font-size: 38px;
+      margin-bottom: 70px;
+    }
+
+    .timeline {
+      max-width: 520px;
+      margin: 0 auto;
+      position: relative;
+      padding-right: 40px;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      top: 6px;
+      bottom: 6px;
+      right: 8px;
+      width: 1px;
+      background: var(--gold-light);
+    }
+
+    .t-item {
+      position: relative;
+      margin-bottom: 44px;
+    }
+
+    .t-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .t-item::before {
+      content: "";
+      position: absolute;
+      right: -38px;
+      top: 6px;
+      width: 9px;
+      height: 9px;
+      background: var(--gold);
+      border-radius: 50%;
+    }
+
+    .t-item .time {
+      font-family: 'Aref Ruqaa', serif;
+      color: var(--burgundy);
+      font-size: 22px;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .t-item .label {
+      color: var(--muted);
+      font-size: 18px;
+    }
+    /* ============================================================ */
+     .fifth h2 {
+      text-align: center;
+      font-size: 38px;
+      margin-bottom: 50px;
+    }
+
+    .photos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .p-item {
+      aspect-ratio: 1/1;
+      background: linear-gradient(135deg, var(--cream-2), var(--gold-light));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold);
+      font-size: 26px;
+      border: 1px solid var(--gold-light);
+    }
+    /* ===================================================================== */
+    .reserv {
+      background: var(--burgundy);
+      color: var(--cream);
+      text-align: center;
+    }
+
+    .reserv h2 {
+      color: var(--cream);
+      font-size: 38px;
+      margin-bottom: 14px;
+    }
+
+    .reserv p {
+      color: var(--gold-light);
+      margin-bottom: 44px;
+      font-size: 19px;
+    }
+
+    .reserv form {
+      max-width: 440px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      text-align: right;
+    }
+
+    .reserv label {
+      font-size: 16px;
+      color: var(--gold-light);
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    .reserv input,
+    .reserv select {
+      width: 100%;
+      padding: 13px 16px;
+      border: 1px solid var(--gold);
+      background: transparent;
+      color: var(--cream);
+      font-family: 'Markazi Text', serif;
+      font-size: 18px;
+      border-radius: 2px;
+    }
+
+    .reserv input::placeholder {
+      color: #d9c6a3aa;
+    }
+
+    .reserv button {
+      margin-top: 12px;
+      background: var(--gold);
+      color: var(--burgundy);
+      border: none;
+      padding: 15px;
+      font-size: 19px;
+      font-family: 'Aref Ruqaa', serif;
+      cursor: pointer;
+      border-radius: 2px;
+    }
+    /* ==========================================================/ */
+    .sixth {
+      text-align: center;
+    }
+
+    .sixth h2 {
+      font-size: 34px;
+      margin-bottom: 40px;
+    }
+
+    .timer {
+      display: flex;
+      justify-content: center;
+      gap: 22px;
+      flex-wrap: wrap;
+    }
+
+    .timer-box {
+      min-width: 90px;
+    }
+
+    .timer-box .num {
+      font-family: 'Aref Ruqaa', serif;
+      font-size: 44px;
+      color: var(--burgundy);
+    }
+
+    .timer-box .T {
+      color: var(--muted);
+      font-size: 16px;
+    }
+    /* ======================================================================== */
+
+    footer {
+      text-align: center;
+      padding: 60px 24px;
+      color: var(--muted);
+      font-size: 17px;
+      background: var(--cream-2);
+    }
+
+    footer .hashtag {
+      color: var(--burgundy);
+      font-family: 'Aref Ruqaa', serif;
+      font-size: 22px;
+      margin-bottom: 10px;
+      display: block;
+    }
+    /* ====================================================================== */
+        #toTop {
+      position: fixed;
+      bottom: 28px;
+      left: 28px;
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: var(--burgundy);
+      color: var(--cream);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, .18);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(10px);
+      transition: opacity .3s ease, transform .3s ease;
+      z-index: 100;
+    }
+
+    #toTop.show {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+    /* ======================================================= */
+    /* عنصر القلب الطائر
+.floating-heart {
+  position: fixed;
+  bottom: -20px; 
+  font-size: 20px;
+  color: var(--burgundy); 
+  pointer-events: none; 
+  user-select: none;
+  z-index: 9999;
+  animation: floatUp 2.5s ease-out forwards;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0) scale(0.8) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-50vh) scale(1.2) rotate(15deg);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-105vh) scale(1.4) rotate(-20deg);
+    opacity: 0;
+  }
+} */

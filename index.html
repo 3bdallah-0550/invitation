@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>دعوة زفاف</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Markazi+Text:wght@400;500;600&display=swap"rel="stylesheet">
+<link rel="stylesheet" href="invite.css" />
+</head>
+<body>
+
+<section class="first">
+  <span class="corner c1"></span>
+  <span class="corner c2"></span>
+  <span class="corner c3"></span>
+  <span class="corner c4"></span>
+  <div class="A"> باذن الله تعالي</div>
+  <h1 class="names">سارا</h1>
+  <div class="adds">و</div>
+  <h1 class="names">احمد</h1>
+  <div class="date">الخميس , 17 سبتمبر و 2026 -القاهرة</div>
+  <a href="#details" class="details" >تفاصيل الفرح</a>
+  </section>
+<!-- ============================================================== -->
+  <section class="sec">
+    <div class="container">
+    <p>"وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا"</p>
+    <div class="B">الروم، ٢١</div>
+  </div>
+  </section>
+<!-- ====================================================== -->
+  <section id="details" class="therd">
+    <div class="container">
+    <h2>تفاصيل المناسبة</h2>  
+    <p class="C">يسعدنا حضوركم لمشاركتنا فرحتنا</p> 
+    <div class="cards">
+    <div class="card">
+    <div class="icon">✦</div>
+    <h3>الموعد</h3>
+    <p>الخميس , 17 سبتمبر , 2026<br>الساعة السابعة مساءً</p>
+    </div>
+    <div class="card">
+    <div class="icon">✦</div>
+    <h3>المكان</h3>
+    <p>  مسجد الشرطة <br> الساس من اكتوبر-القاهرة </p>
+    </div>
+    </div>
+    </div>
+  </section>
+<!-- ================================================================== -->
+  <section class="forth">
+    <div class="container">
+    <h2>برنامج اليوم</h2>
+    <div class="timeline">
+    <div class="t-item"><span class="time">6:30 pm</span><span class="label">استقبال الضيوف</span></div>
+    <div class="t-item"><span class="time">7:00 pm</span><span class="label">حفل الزفاف</span></div>
+    <div class="t-item"><span class="time">8"30 pm</span><span class="label">حفل العشاء</span></div>
+    <div class="t-item"><span class="time">10:10 pm</span><span class="label">الزفة والرقص</span></div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <section class="fifth">
+    <div class="container">
+      <h2>لحظاتنا</h2>
+      <div class="photos">
+        <div class="p-item">✦</div>
+        <div class="p-item">✦</div>
+        <div class="p-item">✦</div>
+        <div class="p-item">✦</div>
+        <div class="p-item">✦</div>
+        <div class="p-item">✦</div>
+      </div>
+    </div>
+  </section>
+
+<!-- ================================================================= -->
+ <section class="sixth">
+     <div class="container">
+      <h2>الوقت المتبقي للفرح</h2>
+      <div class="timer">
+        <div class="timer-box">
+          <div class="num" id="days">00</div>
+          <div class="T">يوم</div>
+        </div>
+        <div class="timer-box">
+          <div class="num" id="hours">00</div>
+          <div class="T">ساعة</div>
+        </div>
+        <div class="timer-box">
+          <div class="num" id="mins">00</div>
+          <div class="T">دقيقة</div>
+        </div>
+        <div class="timer-box">
+          <div class="num" id="secs">00</div>
+          <div class="T">ثانية</div>
+        </div>
+      </div>
+    </div>
+    </section>
+<!-- ========================================================================= -->
+  <section class="reserv">
+    <div class="container">
+      <h2>تأكيد الحضور</h2>
+      <p>يرجى تأكيد حضوركم قبل ١ ديسمبر ٢٠٢٦</p>
+      <form onsubmit="event.preventDefault(); alert('تم إرسال التأكيد، شكراً لكم');">
+        <div>
+          <label>الاسم بالكامل</label>
+          <input type="text" placeholder="اسمك هنا" required>
+        </div>
+        <div>
+          <label>عدد الحضور</label>
+          <select>
+            <option>شخص واحد</option>
+            <option>شخصان</option>
+            <option>٣ أشخاص</option>
+            <option>٤ أشخاص فأكثر</option>
+          </select>
+        </div>
+        <button type="submit">تأكيد الحضور</button>
+      </form>
+    </div>
+  </section>
+<!-- ======================================================================= -->
+  <footer>
+    <span class="hashtag">#سارة_وأحمد</span>
+    بكل الحب والامتنان لحضوركم فرحتنا
+  </footer>
+<script src="invite.js"></script>
+</body>
+</html>
